@@ -78,8 +78,8 @@ export default function Products() {
                                             R{product.price}
                                         </p>
 
-                                        //kuyanyiwa
-                                        <NavLink to={'/products/${}'} className="btn btn-outline-dark">
+                                        
+                                        <NavLink to={`/products/${product.id}`} className="btn btn-outline-dark">
                                             Buy Now
                                         </NavLink>
                                     </div>
